@@ -1,0 +1,16 @@
+apply plugin: 'com.android.library'
+apply from: "$rootProject.projectDir/androidx.gradle"
+apply from: "$rootProject.projectDir/hilt.gradle"
+apply from: "$rootProject.projectDir/retrofit.gradle"
+apply from: "$rootProject.projectDir/coroutines.gradle"
+apply plugin: 'kotlin-android'
+
+dependencies{
+    implementation project(':core')
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation project(':network')
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+}

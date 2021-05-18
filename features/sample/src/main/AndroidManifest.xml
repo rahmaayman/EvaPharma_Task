@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sample">
+
+    <application>
+        <activity android:name=".ui.doctors.DoctorsListActivity"></activity>
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="com.example.sample.sample.ui.main.open" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.employee.NewEmployeeActivity" />
+        <activity android:name=".ui.employee.EmployeeListActivity" />
+        <activity android:name=".ui.home.HomeActivity">
+            <intent-filter>
+                <action android:name="com.example.sample.sample.ui.home.open" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,1 @@
+C:\Users\Rahma Ayman\AndroidStudioProjects\Android Skeleton\buildSrc\build\classes\kotlin\main\Config.class;C:\Users\Rahma Ayman\AndroidStudioProjects\Android Skeleton\buildSrc\build\classes\kotlin\main\Deps.class;C:\Users\Rahma Ayman\AndroidStudioProjects\Android Skeleton\buildSrc\build\classes\kotlin\main\Versions.class
